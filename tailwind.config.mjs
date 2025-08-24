@@ -19,22 +19,22 @@ export default {
     			md: 'calc(var(--radius) - 2px)',
     			sm: 'calc(var(--radius) - 4px)'
     		},
-			colors: {
-				// Light mode colors
-				'light-theme': '#E9EBEC',
-				'primary-light': '#FBD144',
-				'primary-hover-light': '#FFE071',
+		colors: {
+			// Light mode colors
+			'light-theme': '#D3D0CB',
+			'primary-light': '#86a6b9ff',
+			'primary-hover-light': '#7691a1ff',
 
-				// Dark mode colors
-				'dark-theme': '#0C151D',
-				'primary-dark': '#FFE071',
-				'primary-hover-dark': '#FBD144',
+			// Dark mode colors
+			'dark-theme': '#171614',  
+			'primary-dark': '#86a6b9ff',  
+			'primary-hover-dark': '#6E8898', 
 
-				// Neutrals
-				'n200': '#d7d9da',
-				'n900': '#222222',
-				'n700': '#171F26',
-				'n500': '#555555',
+			// Neutrals
+			'n200': '#d7d9da',
+			'n900': '#222222',
+			'n700': '#171F26',
+			'n500': '#555555',
 			},
     	}
     },
