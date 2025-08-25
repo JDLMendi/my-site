@@ -3,7 +3,7 @@ export const SITE = {
     title: "Jhundon De Leon Mendi",
     description: "A website for a guy that has no idea what he is doing!",
     tags: ["portfolio", "Resume cv", "Astro"],
-    ogImage: "/og-image.webp",
+    ogImage: "/og-image.png",
     logo: "logo",
     logoText: "J D.L Mendi",
     lang: "en",
