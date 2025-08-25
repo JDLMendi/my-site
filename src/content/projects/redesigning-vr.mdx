@@ -1,0 +1,52 @@
+---
+title: (RE-)Designing a Framework for Immersive Learning
+summary: Revisiting and reinventing the way VR is used for teaching at the Collaborative Teaching Laboratory
+tags:
+    - Internship
+    - Teaching
+    - Virtual Reality
+    - Social VR
+    - Development
+    - Framework
+startDate: 2025-06-25
+endDate: 2025-09-10
+author: Jhundon
+url: ..
+cover: './images/redesigning-vr/preview-grey.png'
+ogImage: './images/redesigning-vr/preview-coloured.png'
+---
+
+### Project Overview
+As part of my internship with the **Collaborative Teaching Laboratory (CTL)**, I was tasked with a critical project: redesigning the framework for how we deploy Virtual Reality in education. While the CTL has successfully used VR for instructor-led, small-group teaching, the existing methods were not built to scale.
+
+As the deployment of VR scales from small groups to larger class sizes, the logistical and cognitive load on the instructor increases exponentially. This project's motivation was to develop a scalable and user-friendly framework that allows academics to seamlessly integrate VR into their curricula, ensuring the focus remains on pedagogy, not technological troubleshooting.
+
+The project is built on three core pillars:
+1.  **Headset Management and Infrastructure**
+2.  **VR-Enabled Teaching Models**
+3.  **A Streamlined Content Pipeline**
+
+This post details the foundational work completed for the first pillar: creating a robust management infrastructure.
+
+### The Challenge: Scaling from 10 to 30+ Headsets
+The previous method of managing headsets with shared user accounts was adequate for a small fleet. However, with the lab's expansion to over 30 headsets, this system became untenable. Key challenges included:
+* **Time-Consuming Setups:** Manually updating apps and system software on each device individually.
+* **Inconsistency:** Ensuring every headset had the correct content and configuration for a given session.
+* **Technical Limitations:** Running into Meta's two-headset limit for shared accounts on a single Wi-Fi network.
+
+### The Solution: A Mobile Device Management (MDM) Framework
+After researching alternatives, it was clear that a **Mobile Device Management (MDM)** solution was the only viable path forward for remote, at-scale management.
+
+My research and implementation process involved:
+1.  **Evaluating the New Landscape:** I discovered that a recent change—the introduction of **Meta Horizon Managed Service (HMS) in February 2025**—had fundamentally altered the ecosystem. All third-party MDMs now require devices to first be enrolled in HMS. This was a critical finding that shaped our entire strategy.
+2.  **Comparative Analysis:** I conducted trials of two leading MDM platforms, **ManageXR** and **ArborXR**. Both offered the core functionality we needed, including remote content deployment, device configuration, and fleet monitoring.
+3.  **Strategic Recommendation:** I recommended **ArborXR** as the CTL's chosen platform. While both were excellent, ArborXR provided the same essential feature set at a more cost-effective price point, making it the ideal choice for our use case.
+4.  **Developing a Standard Operating Procedure (SOP):** I created and documented a clear, step-by-step process for enrolling the entire fleet of headsets into the new HMS + ArborXR framework. This guide ensures that any team member can reliably provision new devices in the future.
+
+### The Outcome: A Centralised, Scalable System
+The new framework provides a robust foundation for all future VR teaching at the CTL. Key capabilities include:
+* **Centralised Fleet Management:** We can now remotely push system updates, configure settings, and monitor the status (battery, connectivity) of all 32 headsets from a single web dashboard.
+* **Effortless Content Deployment:** We can assign specific applications to groups of headsets, ensuring every student has the right experience for their lesson with a few clicks.
+* **Simplified Asset Tracking:** I proposed a revised, more intuitive physical labeling convention (`CTL-VR(Model)-(Number)`) to make identifying headsets during a busy session much easier.
+
+This foundational work dramatically reduces the setup time and technical burden on instructors, making large-scale VR sessions not just possible, but practical. The next steps of this project will involve building new teaching models on top of this reliable infrastructure.

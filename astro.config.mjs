@@ -10,18 +10,26 @@ import icon from "astro-icon";
 
 import sitemap from "@astrojs/sitemap";
 
+import netlify from "@astrojs/netlify";
+
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://simple-portfolio.vicbox.dev/',
-    integrations: [mdx(), react(), tailwind({
-        applyBaseStyles: false,
-    }), icon(), sitemap()],
-    markdown: {
-        shikiConfig: {
-            theme: 'plastic',
-            wrap: true,
-        },
-    },
-    experimental: {
-        svg: true,
-    }});
+  site: 'https://simple-portfolio.vicbox.dev/',
+
+  integrations: [mdx(), react(), tailwind({
+      applyBaseStyles: false,
+  }), icon(), sitemap()],
+
+  markdown: {
+      shikiConfig: {
+          theme: 'plastic',
+          wrap: true,
+      },
+  },
+
+  experimental: {
+      svg: true,
+  },
+
+  adapter: netlify()
+});
