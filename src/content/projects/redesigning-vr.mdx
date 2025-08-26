@@ -44,9 +44,47 @@ My research and implementation process involved:
 4.  **Developing a Standard Operating Procedure (SOP):** I created and documented a clear, step-by-step process for enrolling the entire fleet of headsets into the new HMS + ArborXR framework. This guide ensures that any team member can reliably provision new devices in the future.
 
 ### The Outcome: A Centralised, Scalable System
+
+![Planning management of headsets](./images/redesigning-vr/planning-management.png)
+
 The new framework provides a robust foundation for all future VR teaching at the CTL. Key capabilities include:
 * **Centralised Fleet Management:** We can now remotely push system updates, configure settings, and monitor the status (battery, connectivity) of all 32 headsets from a single web dashboard.
 * **Effortless Content Deployment:** We can assign specific applications to groups of headsets, ensuring every student has the right experience for their lesson with a few clicks.
-* **Simplified Asset Tracking:** I proposed a revised, more intuitive physical labeling convention (`CTL-VR(Model)-(Number)`) to make identifying headsets during a busy session much easier.
+* **Simplified Asset Tracking:** I proposed a revised, more intuitive physical labeling convention (`CTL-(Model)(Number)`) to make identifying headsets during a busy session much easier.
 
 This foundational work dramatically reduces the setup time and technical burden on instructors, making large-scale VR sessions not just possible, but practical. The next steps of this project will involve building new teaching models on top of this reliable infrastructure.
+
+### A Streamlined Content Pipeline
+
+With a robust MDM framework established, the focus shifts from device logistics to pedagogical impact. The choice of an MDM like ArborXR was not just about managing hardware; it was about creating a flexible and powerful pipeline for deploying diverse educational content. This pipeline is designed to support a spectrum of teaching needs, from simple, ready-made experiences to highly bespoke, collaborative virtual labs.
+
+#### Empowering Academics with Diverse Content Types
+
+Our new infrastructure simplifies the deployment of various content formats, each serving a different pedagogical purpose. We can seamlessly push any of the following to the entire fleet:
+* **Immersive Media:** 360-degree videos and images for virtual field trips or situational training.
+* **Web-Based Content:** WebXR links that provide access to a growing ecosystem of browser-based VR experiences without needing to install a full application.
+* **Third-Party Applications:** Vetted educational apps from the Meta Quest Store.
+* **In-House Applications (APKs):** Custom-built Unity or Unreal Engine applications designed specifically for CTL's academic partners.
+
+While all are valuable, the ability to develop and deploy our own **in-house APKs** is the most transformative aspect of this new framework. It allows us to move beyond off-the-shelf software and create experiences tailored precisely to the curriculum, ensuring that the technology serves the teaching, not the other way around.
+
+![Content Creation](./images/redesigning-vr/content-creation.png)
+
+#### A New Model for Collaborative Learning: Social VR
+
+To maximise the potential of in-house development, we are focusing on **Social VR** as a core pillar of our content strategy. Traditional single-player VR can be isolating, but Social VR transforms it into a shared, interactive space for collaborative learning.
+
+![Ubiq](./images/redesigning-vr/ubiq.png)
+
+After consulting with the in-campus academic, we have adopted **[Ubiq](https://ubiq.online/)**, a powerful open-source networking library for Unity. Ubiq enables us to efficiently build multi-user environments where students and instructors can interact with each other and with virtual objects in real-time. This approach unlocks several powerful teaching models:
+
+* **Virtual Demonstrations:** An instructor can lead a class of students through a virtual demonstration of a complex piece of equipment, a surgical procedure, or a chemical reaction that would be too dangerous, expensive, or impractical to replicate in a physical lab.
+* **Collaborative Problem-Solving:** Students can gather in a virtual space to collectively assemble a model, analyse data visualisations, or solve spatial puzzles, fostering teamwork and peer-to-peer learning.
+* **Enhanced Social Presence:** By seeing and hearing their peers and instructor as avatars, students feel a greater sense of community and engagement, reducing the isolation sometimes felt in remote or large-scale learning environments.
+
+We've implemented an example of this model into another intern project (Chemical Molecuale Viewer) as seen below where we had three people with a model in the middle. One user is presented as the 'Host' of the room which means that the moelcule in the middle in fully controlled by them. Users in the room can see these changes but cannot interact with it as they are 'Observers' of the room:
+
+![Chemical Molecule Viewer](./images/redesigning-vr/chemical-example.png)
+
+By building our custom content on this social framework, we are creating a platform where VR is not just a tool for individual consumption, but a shared space for active, collaborative discovery. This foundation directly supports the next phase of the project: developing new teaching models that leverage this powerful, connected infrastructure.
+
