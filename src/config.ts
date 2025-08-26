@@ -36,7 +36,7 @@ export const ME = {
         linkedin: "https://www.linkedin.com/in/jmendi2021/",
         resumeDoc: "CV-JhundonMendi.pdf",
     },
-    aboutMe: "",
+    aboutMe: "I'm Jhundon, a First-Class Computer Science graduate currently studying for my Masters in Cognitive Neuroimaging and Data Science at the University of Birmingham. My passion lies at the intersection of technology and cognitive science, with a primary focus on Extended Reality (XR). I aim to design and implement VR/AR applications for research, seeking to understand how these technologies affect human cognition and action, and ultimately using them to build more effective academic resources."
 }
 
 export const SOCIALS = [
