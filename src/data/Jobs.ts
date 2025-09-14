@@ -46,17 +46,17 @@ const workExperience: WorkExperience[] = [
     {
         title: "Learning Experience Developer",
         startDate: "2025-10-01",
-        company: "University of Birmingham | Collaborative Teaching Laboratory",
-        location: "Birmingham, UK",
+        company: "Collaborative Teaching Laboratory",
+        location: "University of Birmingham, Birmingham, UK",
         description: "Involved in developing innovative learning resources to transform how students engage with laboratory work. As part of the CTL's in-house Educational Technology (EdTech) team, I will be collaborating with academics to create bespoke digital materials and in-lab learning experiences.",
         goals: [
-            "Design and develop a range of digital learning materials and educational media.",
-            "Create tailored learning experiences using online and blended pedagogies.",
-            "Manage and develop online course content and assessment tools.",
-            "Collaborate with cross-functional teams to deliver transformative student experiences.",
-            "Demonstrate proficiency with industry content development tools such as Articulate Storyline or similar.",
-            "Work with virtual learning environments (VLE) like Canvas.",
-            "Utilise project management skills to self-govern and work independently."
+            // "Design and develop a range of digital learning materials and educational media.",
+            // "Create tailored learning experiences using online and blended pedagogies.",
+            // "Manage and develop online course content and assessment tools.",
+            // "Collaborate with cross-functional teams to deliver transformative student experiences.",
+            // "Demonstrate proficiency with industry content development tools such as Articulate Storyline or similar.",
+            // "Work with virtual learning environments (VLE) like Canvas.",
+            // "Utilise project management skills to self-govern and work independently."
         ],
         currentJob: true,
     },
