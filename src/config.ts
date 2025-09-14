@@ -5,17 +5,17 @@ export const SITE = {
     tags: ["portfolio", "Resume cv", "Astro"],
     ogImage: "/og-image.png",
     logo: "logo",
-    logoText: "J D.L Mendi",
+    logoText: "JD Mendi",
     lang: "en",
     favicon: "/virtualreality.svg",
     repository: "https://github.com/JDLMendi/my-site",
     author: "Jhundon De Leon Mendi",
-    profile: "https://jdlmendi.codes/",
+    profile: "https://jdmendi.dev/",
 }
 
 export const ME = {
     name: "Jhundon De Leon Mendi",
-    profession: "VR Developer | Masters Student",
+    profession: "Learning Experience Developer | VR Developer | Masters Student",
     profileImage: "me.jpg",
     profileFacts: [
         // {
