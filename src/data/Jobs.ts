@@ -47,7 +47,7 @@ const workExperience: WorkExperience[] = [
         title: "Learning Experience Developer",
         startDate: "2025-10-01",
         company: "Collaborative Teaching Laboratory",
-        location: "University of Birmingham, Birmingham, UK",
+        location: "Birmingham, UK",
         description: "Involved in developing innovative learning resources to transform how students engage with laboratory work. As part of the CTL's in-house Educational Technology (EdTech) team, I will be collaborating with academics to create bespoke digital materials and in-lab learning experiences.",
         goals: [
             // "Design and develop a range of digital learning materials and educational media.",
