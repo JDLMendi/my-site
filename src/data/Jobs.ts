@@ -44,8 +44,26 @@ interface WorkExperience {
  */
 const workExperience: WorkExperience[] = [
     {
+        title: "Learning Experience Developer",
+        startDate: "2025-10-01",
+        company: "University of Birmingham | Collaborative Teaching Laboratory",
+        location: "Birmingham, UK",
+        description: "Involved in developing innovative learning resources to transform how students engage with laboratory work. As part of the CTL's in-house Educational Technology (EdTech) team, I will be collaborating with academics to create bespoke digital materials and in-lab learning experiences.",
+        goals: [
+            "Design and develop a range of digital learning materials and educational media.",
+            "Create tailored learning experiences using online and blended pedagogies.",
+            "Manage and develop online course content and assessment tools.",
+            "Collaborate with cross-functional teams to deliver transformative student experiences.",
+            "Demonstrate proficiency with industry content development tools such as Articulate Storyline or similar.",
+            "Work with virtual learning environments (VLE) like Canvas.",
+            "Utilise project management skills to self-govern and work independently."
+        ],
+        currentJob: true,
+    },
+    {
         title: "CTL EdTech Intern (2025)",
         startDate: "2025-07-01",
+        endDate: "2025-09-10",
         company: "University of Birmingham",
         location: "Birmingham, UK",
         description: "Involved in developing a Mouse Dissection/Anatomy Tool using Photogrammetry and exploring the use of VR as a learning tool.",
@@ -53,7 +71,7 @@ const workExperience: WorkExperience[] = [
             "Involved in the development of the Mouse Dissection/Anatomy Tool which aims to help students to revisit the anatomy of a mouse through their course through the use of Photogrammetry and exploring workflows including 3D reconstruction softwares.",
             "Exploring methods of utilising Virtual Reality as a learning tool with possible usage of Mobile Device Management (MDM) solutions and models to extend to different subjects (beyond Chimera X).",
         ],
-        currentJob: true,
+        currentJob: false,
     },
     {
         title: "Senior Student Ambassador",
@@ -121,7 +139,7 @@ const workExperience: WorkExperience[] = [
         endDate: "2024-09-30",
         company: "University of Birmingham",
         location: "Birmingham, UK",
-        description: "Served as Project Lead and Developer for the VR Fume Cabinet Project, managing tasks and coordinating with staff. Also organized VR Tasters for Family Day and assisted other interns.",
+        description: "Served as Project Lead and Developer for the VR Fume Cabinet Project, managing tasks and coordinating with staff. Also organised VR Tasters for Family Day and assisted other interns.",
         goals: [
             "Project Lead and Developer for the VR Fume Cabinet Project, managing task allocation and project milestones and coordinating with staff to ensure resource availability and intern support.",
             "Organised VR Tasters for Family Day, planned teaching sessions and researched VR in education to enhance student preparation for practicals.",
