@@ -1,5 +1,5 @@
 export const SITE = {
-    website: "https://jdlmendi.codes/", // replace this with your deployed domain
+    website: "https://jdmendi.dev/", // replace this with your deployed domain
     title: "Jhundon De Leon Mendi",
     description: "A website for a guy that has no idea what he is doing!",
     tags: ["portfolio", "Resume cv", "Astro"],
